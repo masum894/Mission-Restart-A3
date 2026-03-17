@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "title": "Learn English Pro",
+    "image": "https://i.ibb.co.com/21BPFDcP/Learn-English-Pro.jpg",
+    "companyName": "EduTech Solutions",
+    "ratingAvg": 4.8,
+    "downloads": 125000,
+    "size": 32,
+    "description": "Master English with interactive lessons, vocabulary builders, and real-time practice sessions. Perfect for students and professionals looking to improve their communication skills.",
+    "ratings": [{ "name": "5 Star", "count": 8500 }, { "name": "4 Star", "count": 2100 }, { "name": "3 Star", "count": 950 }, { "name": "2 Star", "count": 300 }, { "name": "1 Star", "count": 150 }]
+  },
+  {
+    "id": 2,
+    "title": "Code Master IDE",
+    "image": "https://i.ibb.co.com/Xkb58h6v/Code-Master-IDE.jpg",
+    "companyName": "DevTools Inc",
+    "ratingAvg": 4.5,
+    "downloads": 85000,
+    "size": 120,
+    "description": "A powerful mobile IDE for web developers. Supports HTML, CSS, JavaScript, and Python with built-in terminal and cloud sync features.",
+    "ratings": [{ "name": "5 Star", "count": 5200 }, { "name": "4 Star", "count": 1800 }, { "name": "3 Star", "count": 700 }, { "name": "2 Star", "count": 400 }, { "name": "1 Star", "count": 200 }]
+  },
+  {
+    "id": 3,
+    "title": "Cricket Live 2026",
+    "image": "https://i.ibb.co.com/Rp7gcCx6/Cricket-Live-2026.jpg",
+    "companyName": "Sports Arena",
+    "ratingAvg": 4.9,
+    "downloads": 500000,
+    "size": 45,
+    "description": "Get real-time cricket updates, live scores, and detailed player statistics. Follow your favorite teams and never miss a match.",
+    "ratings": [{ "name": "5 Star", "count": 45000 }, { "name": "4 Star", "count": 8000 }, { "name": "3 Star", "count": 2000 }, { "name": "2 Star", "count": 500 }, { "name": "1 Star", "count": 100 }]
+  },
+  {
+    "id": 4,
+    "title": "Budget Tracker Pro",
+    "image": "https://i.ibb.co.com/MyfHpCPF/Budget-Tracker-Pro.jpg",
+    "companyName": "FinSafe Ltd",
+    "ratingAvg": 4.4,
+    "downloads": 250000,
+    "size": 18,
+    "description": "Manage your daily expenses and track savings goals effortlessly. Get detailed financial reports and stay on top of your budget.",
+    "ratings": [{ "name": "5 Star", "count": 12000 }, { "name": "4 Star", "count": 3000 }, { "name": "3 Star", "count": 1000 }, { "name": "2 Star", "count": 200 }, { "name": "1 Star", "count": 50 }]
+  },
+  {
+    "id": 5,
+    "title": "FitMe Yoga Guide",
+    "image": "https://i.ibb.co.com/cKjx9vp1/Fit-Me-Yoga-Guide.jpg",
+    "companyName": "Health First",
+    "ratingAvg": 4.6,
+    "downloads": 75000,
+    "size": 65,
+    "description": "Guided yoga sessions and meditation for a healthy lifestyle. Access hundreds of routines suitable for all skill levels.",
+    "ratings": [{ "name": "5 Star", "count": 4500 }, { "name": "4 Star", "count": 800 }, { "name": "3 Star", "count": 150 }, { "name": "2 Star", "count": 40 }, { "name": "1 Star", "count": 10 }]
+  },
+  {
+    "id": 6,
+    "title": "Quick News BD",
+    "image": "https://i.ibb.co.com/Wv2G7dKJ/Quick-News-BD.jpg",
+    "companyName": "Journal Media",
+    "ratingAvg": 4.2,
+    "downloads": 1000000,
+    "size": 12,
+    "description": "Stay updated with breaking news from local and global verified sources. Get instant notifications on top stories.",
+    "ratings": [{ "name": "5 Star", "count": 80000 }, { "name": "4 Star", "count": 15000 }, { "name": "3 Star", "count": 5000 }, { "name": "2 Star", "count": 1000 }, { "name": "1 Star", "count": 500 }]
+  },
+  {
+    "id": 7,
+    "title": "Safe VPN Turbo",
+    "image": "https://i.ibb.co.com/6R7GgXR8/Safe-VPN-Turbo.jpg",
+    "companyName": "Secure Browsing",
+    "ratingAvg": 4.1,
+    "downloads": 5000000,
+    "size": 14,
+    "description": "Protect your online privacy and bypass geo-restrictions with one tap. Fast, secure, and unlimited bandwidth for all users.",
+    "ratings": [{ "name": "5 Star", "count": 400000 }, { "name": "4 Star", "count": 80000 }, { "name": "3 Star", "count": 20000 }, { "name": "2 Star", "count": 5000 }, { "name": "1 Star", "count": 1000 }]
+  },
+  {
+    "id": 8,
+    "title": "Pixel Art Editor",
+    "image": "https://i.ibb.co.com/gbCpqF6G/Pixel-Art-Editor.png",
+    "companyName": "Creative Pixels",
+    "ratingAvg": 4.8,
+    "downloads": 45000,
+    "size": 28,
+    "description": "Create amazing pixel art for your games or social media. Easy-to-use tools with layer support and custom palettes.",
+    "ratings": [{ "name": "5 Star", "count": 3200 }, { "name": "4 Star", "count": 400 }, { "name": "3 Star", "count": 100 }, { "name": "2 Star", "count": 20 }, { "name": "1 Star", "count": 5 }]
+  },
+  {
+    "id": 9,
+    "title": "Task Manager Z",
+    "image": "https://i.ibb.co.com/Q7K0DdZz/Task-Manager-Z.jpg",
+    "companyName": "Z-Productivity",
+    "ratingAvg": 4.7,
+    "downloads": 60000,
+    "size": 8,
+    "description": "Organize your life with Task Manager Z. Create to-do lists, set reminders, and collaborate with your team on projects.",
+    "ratings": [{ "name": "5 Star", "count": 5000 }, { "name": "4 Star", "count": 900 }, { "name": "3 Star", "count": 100 }, { "name": "2 Star", "count": 20 }, { "name": "1 Star", "count": 5 }]
+  },
+  {
+    "id": 10,
+    "title": "Recipe Box Master",
+    "image": "https://i.ibb.co.com/nNWn7s1m/Recipe-Box-Master.jpg",
+    "companyName": "Foodie Hub",
+    "ratingAvg": 4.3,
+    "downloads": 32000,
+    "size": 22,
+    "description": "Store and organize your favorite cooking recipes. Explore thousands of dishes and plan your weekly meals easily.",
+    "ratings": [{ "name": "5 Star", "count": 2500 }, { "name": "4 Star", "count": 600 }, { "name": "3 Star", "count": 100 }, { "name": "2 Star", "count": 50 }, { "name": "1 Star", "count": 20 }]
+  },
+  {
+    "id": 11,
+    "title": "Crypto Wallet BD",
+    "image": "https://i.ibb.co.com/pjTm37Pm/Crypto-Wallet-BD.jpg",
+    "companyName": "BlockChain Tech",
+    "ratingAvg": 4.4,
+    "downloads": 150000,
+    "size": 42,
+    "description": "Securely buy, sell, and store your digital assets. Supports Bitcoin, Ethereum, and many other cryptocurrencies with high security.",
+    "ratings": [{ "name": "5 Star", "count": 10000 }, { "name": "4 Star", "count": 4000 }, { "name": "3 Star", "count": 900 }, { "name": "2 Star", "count": 100 }, { "name": "1 Star", "count": 50 }]
+  },
+  {
+    "id": 12,
+    "title": "Music Streamer X",
+    "image": "https://i.ibb.co.com/SD707ybx/Music-Streamer-X.jpg",
+    "companyName": "Audio Pulse",
+    "ratingAvg": 4.7,
+    "downloads": 900000,
+    "size": 55,
+    "description": "Stream millions of high-quality songs without ads. Create custom playlists and listen to your favorite artists anytime.",
+    "ratings": [{ "name": "5 Star", "count": 70000 }, { "name": "4 Star", "count": 15000 }, { "name": "3 Star", "count": 4000 }, { "name": "2 Star", "count": 800 }, { "name": "1 Star", "count": 200 }]
+  },
+  {
+    "id": 13,
+    "title": "Translate All Pro",
+    "image": "https://i.ibb.co.com/wXp3Z2V/Translate-All-Pro.jpg",
+    "companyName": "Language Global",
+    "ratingAvg": 4.3,
+    "downloads": 800000,
+    "size": 25,
+    "description": "Translate text, voice, and images in over 100 languages. Essential tool for travelers and language learners worldwide.",
+    "ratings": [{ "name": "5 Star", "count": 60000 }, { "name": "4 Star", "count": 15000 }, { "name": "3 Star", "count": 4000 }, { "name": "2 Star", "count": 900 }, { "name": "1 Star", "count": 100 }]
+  },
+  {
+    "id": 14,
+    "title": "Pet Care Tracker",
+    "image": "https://i.ibb.co.com/bR5tT3Ht/Pet-Care-Tracker.png",
+    "companyName": "Paws & Tail",
+    "ratingAvg": 4.8,
+    "downloads": 22000,
+    "size": 40,
+    "description": "Monitor your pet's health, diet, and vaccination schedule. Get expert tips and find nearby vet clinics easily.",
+    "ratings": [{ "name": "5 Star", "count": 1800 }, { "name": "4 Star", "count": 300 }, { "name": "3 Star", "count": 80 }, { "name": "2 Star", "count": 15 }, { "name": "1 Star", "count": 5 }]
+  },
+  {
+    "id": 15,
+    "title": "Quiz Master King",
+    "image": "https://i.ibb.co.com/1fgcT9J2/Quiz-Master-King.jpg",
+    "companyName": "Brainy Games",
+    "ratingAvg": 4.7,
+    "downloads": 100000,
+    "size": 14,
+    "description": "Test your knowledge across various categories. Compete with friends and climb the global leaderboard in Quiz Master.",
+    "ratings": [{ "name": "5 Star", "count": 8500 }, { "name": "4 Star", "count": 1200 }, { "name": "3 Star", "count": 250 }, { "name": "2 Star", "count": 40 }, { "name": "1 Star", "count": 10 }]
+  },
+  {
+    "id": 16,
+    "title": "Photo Magic Editor",
+    "image": "https://i.ibb.co.com/HpPKJ2tF/Photo-Magic-Editor.jpg",
+    "companyName": "Visual Labs",
+    "ratingAvg": 4.6,
+    "downloads": 300000,
+    "size": 85,
+    "description": "Apply amazing filters and AI effects to your photos. Professional editing tools made simple for mobile users.",
+    "ratings": [{ "name": "5 Star", "count": 22000 }, { "name": "4 Star", "count": 6000 }, { "name": "3 Star", "count": 1500 }, { "name": "2 Star", "count": 400 }, { "name": "1 Star", "count": 100 }]
+  },
+  {
+    "id": 17,
+    "title": "Sky View Explorer",
+    "image": "https://i.ibb.co.com/T5HP3mJ/Sky-View-Explorer.jpg",
+    "companyName": "Astro Labs",
+    "ratingAvg": 4.9,
+    "downloads": 15000,
+    "size": 150,
+    "description": "Explore constellations, planets, and satellites in real-time. Simply point your device to the sky to start identifying.",
+    "ratings": [{ "name": "5 Star", "count": 1200 }, { "name": "4 Star", "count": 200 }, { "name": "3 Star", "count": 80 }, { "name": "2 Star", "count": 15 }, { "name": "1 Star", "count": 5 }]
+  },
+  {
+    "id": 18,
+    "title": "Home Workout Pro",
+    "image": "https://i.ibb.co.com/Csnx2Gvs/Home-Workout-Pro.jpg",
+    "companyName": "Fitness Hub",
+    "ratingAvg": 4.5,
+    "downloads": 400000,
+    "size": 38,
+    "description": "No equipment needed. Workout at home with professional trainers. Get personalized plans for weight loss and muscle gain.",
+    "ratings": [{ "name": "5 Star", "count": 35000 }, { "name": "4 Star", "count": 4000 }, { "name": "3 Star", "count": 800 }, { "name": "2 Star", "count": 150 }, { "name": "1 Star", "count": 50 }]
+  },
+  {
+    "id": 19,
+    "title": "Job Finder BD",
+    "image": "https://i.ibb.co.com/KpNHWC0p/Job-Finder-BD.jpg",
+    "companyName": "Career Connect",
+    "ratingAvg": 4.5,
+    "downloads": 50000,
+    "size": 10,
+    "description": "Find your dream job in Bangladesh. Browse thousands of listings across various sectors and apply directly via mobile.",
+    "ratings": [{ "name": "5 Star", "count": 4000 }, { "name": "4 Star", "count": 700 }, { "name": "3 Star", "count": 200 }, { "name": "2 Star", "count": 100 }, { "name": "1 Star", "count": 50 }]
+  },
+  {
+    "id": 20,
+    "title": "Flashlight Plus",
+    "image": "https://i.ibb.co.com/svNdf0g1/Flashlight-Plus.jpg",
+    "companyName": "Simple Apps",
+    "ratingAvg": 3.9,
+    "downloads": 100000,
+    "size": 2,
+    "description": "A lightweight flashlight app with SOS signaling and brightness control. Simple, fast, and consumes very little battery.",
+    "ratings": [{ "name": "5 Star", "count": 4000 }, { "name": "4 Star", "count": 2000 }, { "name": "3 Star", "count": 3000 }, { "name": "2 Star", "count": 800 }, { "name": "1 Star", "count": 200 }]
+  }
+]
