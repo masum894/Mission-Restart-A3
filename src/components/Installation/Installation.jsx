@@ -1,22 +1,21 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import appsData from "../../data/apps.json"; 
 
 const Installation = () => {
-    const [installedApps, setInstalledApps] = useState([]);
-    const [sortBy, setSortBy] = useState("");
-
-    useEffect(() => {
+    // Lazy Initialization: 
+    const [installedApps, setInstalledApps] = useState(() => {
+        const savedApps = JSON.parse(localStorage.getItem('installed-apps'));
         
-        const savedApps = JSON.parse(localStorage.getItem('installed-apps')) || [];
-        
-        
-        if(savedApps.length === 0) {
-            setInstalledApps(appsData.slice(0, 3));
-        } else {
-            setInstalledApps(savedApps);
+        if (savedApps === null) {
+            const initialApps = appsData.slice(0, 3);
+            
+            localStorage.setItem('installed-apps', JSON.stringify(initialApps));
+            return initialApps;
         }
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, []); 
+        return savedApps;
+    });
+
+    const [sortBy, setSortBy] = useState("");
 
     
     const handleSort = (type) => {
@@ -66,44 +65,40 @@ const Installation = () => {
 
                 {/* Installed Apps List */}
                 <div className="flex flex-col gap-4">
-                    {installedApps.map((app) => (
-                        <div key={app.id} className="flex items-center justify-between bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all">
-                            <div className="flex items-center gap-6">
-                                {/* Image with Error Handling */}
-                                <div className="w-20 h-20 bg-[#F3F4F6] rounded-xl flex items-center justify-center p-4 overflow-hidden">
-                                    <img 
-                                        src={app.image} 
-                                        alt={app.title} 
-                                        className="w-full h-full object-contain"
-                                        
-                                        
-                                        onError={(e) => {
-                                            e.target.onerror = null; 
-                                            e.target.src = "https://via.placeholder.com/150?text=App+Icon";
-                                        }}
-                                    />
-                                </div>
-                                <div>
-                                    <h3 className="text-xl font-bold text-[#1A1A1A] mb-1">{app.title}</h3>
-                                    <div className="flex items-center gap-4 text-sm font-medium">
-                                        <span className="text-[#22C55E]">↓ {app.size}M</span>
-                                        <span className="text-[#F59E0B]">★ {app.ratingAvg}</span>
-                                        <span className="text-gray-400 font-normal">Size: {app.size} MB</span>
+                    {installedApps.length > 0 ? (
+                        installedApps.map((app) => (
+                            <div key={app.id} className="flex flex-col md:flex-row items-center justify-between bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all gap-4">
+                                <div className="flex items-center gap-6">
+                                    <div className="w-20 h-20 bg-[#F3F4F6] rounded-xl flex items-center justify-center p-4 overflow-hidden">
+                                        <img 
+                                            src={app.image} 
+                                            alt={app.title} 
+                                            className="w-full h-full object-contain"
+                                            onError={(e) => {
+                                                e.target.onerror = null; 
+                                                e.target.src = "https://via.placeholder.com/150?text=App+Icon";
+                                            }}
+                                        />
+                                    </div>
+                                    <div>
+                                        <h3 className="text-xl font-bold text-[#1A1A1A] mb-1">{app.title}</h3>
+                                        <div className="flex items-center gap-4 text-sm font-medium">
+                                            <span className="text-[#22C55E]">↓ {app.size}M</span>
+                                            <span className="text-[#F59E0B]">★ {app.ratingAvg}</span>
+                                            <span className="text-gray-400 font-normal">Size: {app.size} MB</span>
+                                        </div>
                                     </div>
                                 </div>
+
+                                <button 
+                                    onClick={() => handleUninstall(app.id)}
+                                    className="btn bg-[#EF4444] hover:bg-red-700 text-white border-none rounded-lg px-8 transition-colors font-bold"
+                                >
+                                    Uninstall
+                                </button>
                             </div>
-
-                            <button 
-                                onClick={() => handleUninstall(app.id)}
-                                className="btn bg-[#22C55E] hover:bg-red-500 text-white border-none rounded-lg px-6 transition-colors"
-                            >
-                                Uninstall
-                            </button>
-                        </div>
-                    ))}
-
-                    {/* Empty State */}
-                    {installedApps.length === 0 && (
+                        ))
+                    ) : (
                         <div className="text-center py-20 bg-white rounded-3xl border-2 border-dashed border-gray-200">
                             <h3 className="text-xl font-bold text-gray-400">No Apps Installed Yet.</h3>
                         </div>
